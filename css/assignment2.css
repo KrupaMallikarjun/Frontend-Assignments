@@ -1,0 +1,362 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+.container{
+  display: flex;
+  flex-flow: column wrap;
+  background-color: white;
+  width: 569.8px;
+  margin: 0px 31.5% 0px 31.5%;
+  height: 801px;
+}
+.header{
+  display: flex;
+  flex-flow: row nowrap;
+  width: auto;
+  background: url(../images/assignment2imgs/main-hdr-bg.jpg);
+  height: 37px;
+  justify-content: space-between;
+}
+.headerimg1,.headerimg3{
+  width: 32px;
+  height: 24px;
+  margin: 7px 14px;
+  border-radius: 3px;
+}
+.headerimg2{
+  width: 362px;
+}
+.mid{
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: white;
+  height: 95px;
+  justify-content: space-between;
+}
+.middiv1{
+  display: flex;
+  flex-flow: column wrap;
+  width: 469.81px;
+}
+.middiv2{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100px;
+}
+.head1{
+  position: absolute;
+  margin: 14px 0px 0px 11px;
+  font-size: 11px;
+  opacity: 0.7;
+}
+.head2{
+  position: absolute;
+  margin: 23px 0px 0px 9px;
+  font-weight: 100;
+  opacity: 0.7;
+  font-size: 26px;
+}
+.midtable1{
+  position: absolute;
+  border-collapse: collapse;
+  margin: 55px 0px 0px 11px;
+  border-style: hidden;
+  border-color: lightgrey;
+  box-shadow: 0px 0px 0px 1px lightgrey;
+  border-radius: 3px;
+}
+.midtable1 tr .td1{
+  padding: 6px 23px 3px 7px;
+}
+.para1{
+  font-size: 7.5px;
+}
+.para2{
+  font-size: 11px;
+  opacity: 0.5;
+}
+.midimg1{
+  width: 100px;
+  height: 95px;
+}
+.foo{
+  display: flex;
+  flex-flow: row nowrap;
+  background: url(../images/assignment2imgs/main-hdr-bg.jpg);
+  height: 32px;
+}
+.divfoo1{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+  width: 284.905px;
+  height: 32px;
+  font-size: 14px;
+}
+.divfoo2{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 284.905px;
+  font-size: 11px;
+  height: 32px;
+  color: white;
+}
+.foo2img1{
+  width: 75px;
+  height: 28px;
+  margin: 2px 11px 2px 199px;
+  border-radius: 4px;
+}
+.foopara1{
+  margin: 9px -173px 0px 209px;
+  position: absolute;
+}
+.main{
+    display: flex;
+    flex-flow:column;
+    background-color:pink;
+    width: 569.8px;
+    height: 597px;
+}
+.div11,.div3,.div5{
+  background: white;
+}
+.div2,.div4{
+  background:whitesmoke;
+}
+.div1{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 569.8px;
+    height: 119.4px;
+    border: 1px solid lightgrey;
+}
+.firstimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    width: 100px;
+    height: 100px;
+}
+.firstimg1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+.firstparagraph{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+.firstparagraph1{
+    display: flex;
+    justify-content: flex-start;
+    opacity: 0.7;
+    margin: 0px 0px 0px 4px;
+}
+.firstparagraph2{
+    display: flex;
+    font-size: x-small;
+    opacity: 0.8;
+    margin: 2px 0px 0px 3px;
+    line-height: 16px;
+}
+.attachment{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background-color: white;
+    width: 37px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin: 3px 0px 0px 0px;
+}
+.img1{
+    display: flex;
+    width: 20px;
+}
+.two{
+    display: flex;
+    font-size: 13px;
+}
+.firsttable{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 488.08px;
+    height: 117.39px;
+}
+.firstarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hazard{
+  display: flex;
+  font-size:x-small;
+  width:70px;
+  margin: 0px 0px 0px 21px;
+}
+.firsttable1{
+  border-collapse: collapse;
+  border-style: hidden;
+  border-color: lightgrey;
+  box-shadow: 0px 0px 0px 1px lightgrey;
+  border-radius: 3px;
+}
+.firsttablediv{
+  display: flex;
+  margin: 6px 0px 0px 18px;
+  width: 126px;
+}
+.padding{
+  padding: 8px 0px 0px 32px;
+}
+.severity{
+  display: flex;
+  font-size:x-small;
+  width: 49px;
+  margin: 8px 0px 0px 21px;
+}
+.lastdivtable{
+  background-color: white;
+  width: 120px;
+  display: flex;
+  flex-flow: row;
+  border: 1px solid lightgrey;
+  height: 15px;
+  margin: 5px 0px 0px 20px;
+  border-radius: 7px;
+}
+.green{
+  width: 38px;
+  height: 13px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.orange{
+  width: 38px;
+  height: 13px;
+  margin: 0px 0px 0px 1px;
+}
+.red{
+  width: 41px;
+  height: 13px;
+  margin: 0px 0px 0px 2px;
+  border-end-end-radius: 10px;
+  border-start-end-radius: 10px;
+}
+.red1{
+  width: 36px;
+  height: 13px;
+  margin: 0px 0px 0px 2px;
+}
+.a{
+  position: absolute;
+  margin: 0px 0px 0px 13px;
+  font-size: 12px;
+  color: white;
+}
+.b{
+  position: absolute;
+  margin: 0px 0px 0px 51px;
+  font-size: 12px;
+  color: white;
+}
+.c{
+  font-size: 12px;
+  margin: 0px 0px 0px 92px;
+  position: absolute;
+  color: white;
+}
+.activeimg1{
+  position: absolute;
+  width: 19px;
+  margin: -2px 0px 0px -25px;
+}
+.deactiveimg2{
+  position: absolute;
+  width: 23px;
+  margin: -5px 0px 0px -25px;
+}
+.deactiveimg3{
+  position: absolute;
+  width: 14px;
+  margin: -2px 0px 0px -21px;
+}
+.activeimg4{
+  position: absolute;
+  width: 19px;
+  margin: -1px 0px 0px -26px;
+}
+.activeimg5{
+  position: absolute;
+  width: 21px;
+  margin: -5px 0px 0px -23px;
+}
+.activeimg6{
+  position: absolute;
+  width: 17px;
+  margin: 0px 0px 0px -24px;
+}
+.deactiveimg1{
+  position: absolute;
+  width: 21px;
+  margin: -5px 0px 0px -24px;
+}
+.activeimg2{
+  position: absolute;
+  width: 19px;
+  margin: -2px 0px 0px -21px;
+}
+.activeimg3{
+  position: absolute;
+  width: 20px;
+  margin: -2px 0px 0px -24px;
+}
+.deactiveimg5{
+  position: absolute;
+  width: 21px;
+  margin: -5px 0px 0px -25px;
+}
+.deactiveimg6{
+  position: absolute;
+  width: 25px;
+  margin: -4px 0px 0px -27px;
+}
+.lastfooter{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  width: 569.8px;
+  height: 40px;
+}
+.leftfooterimg{
+  height: 34px;
+  margin: 0px 0px 0px 15px;
+}
+.rightfooterimg{
+  height: 29px;
+  width: 224px;
+  margin: 7px 0px 0px 162px;
+}
+.rightfooterpara{
+  font-size: 14px;
+  margin: -27px 0px 0px 166px;
+  color: white;
+}
+.two1{
+  margin: 0px 3px 0px -3px;
+  font-size: 13px;
+}
+.opacity{
+  opacity: 0.5;
+}
